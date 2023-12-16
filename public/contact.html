@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Head content is the same as index.html -->
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dale's Upholstery & Auto Care</title>
+    <link rel="stylesheet" href="style.css"></head>
 <body>
-    <!-- Header content is the same as index.html -->
-
+    <header>
+        <h1>Dale's Upholstery & Auto Care</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact/About</a></li>
+                <li><a href="photos.html">Photos</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <section>
             <h2>About Us</h2>
-            <p>Founded by Dale Sr. in 1998, our family-run business specializes in collision repair and custom paint jobs.</p>
-            <img src="images/team.jpg" alt="Our Team">
+            <p>Founded by Dale Sr. in Kansas City, Kansas, our family-run business specializes in collision repair, upholstery and custom paint jobs.</p>
+            <img src="/images/dalesauto1.jpg" alt="Our Team">
         </section>
         <section>
             <h2>Contact Us</h2>
-            <p>Email: contact@dalesautobody.com | Phone: 555-1234</p>
-            <form>
+            <p>Email: dalesautobody@gmail.com | Phone: 913-371-6654</p>
+            <form action="/send" method="POST">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name"><br><br>
                 <label for="email">Email:</label>
@@ -27,6 +37,7 @@
         </section>
     </main>
 
-    <!-- Footer content is the same as index.html -->
+
+
 </body>
 </html>
